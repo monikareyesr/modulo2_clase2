@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mod2_asincronico2</title>
+
+</head>
+
+<body>
+    <h1>Asincrónico. Resultados en consola.</h1>
+    <script>
+
+        let numero_ingresado
+        numero_ingresado = prompt(' ingresa un numero porfavor')
+        if (numero_ingresado % 2 == 0)
+            console.log('el numero ingresado ' + numero_ingresado + '' + ' es par')
+        else {
+            console.log('el numero ingresado ' + numero_ingresado + '' + ' es impar')
+        }
+        let ingrese_edad_mujer = prompt('si es mujer, ingrese su  edad porfavor')
+        let ingrese_edad_hombre = prompt('si es hombre, ingrese su  edad porfavor')
+
+
+
+        // if (ingrese_edad_mujer >= 60)
+        //     console.log('ud tiene ' + ingrese_edad_mujer + '' + ' y puede jubilar')
+        // else {
+        //     console.log('ud tiene ' + ingrese_edad_mujer + '' + ' aun no puede jubilar')
+        // }
+
+
+        // if (ingrese_edad_hombre >= 65)
+        //     console.log('ud tiene ' + ingrese_edad_hombre + '' + ' y puede jubilar')
+        // else {
+        //     console.log('ud tiene ' + ingrese_edad_hombre + '' + ' aun no puede jubilar')
+        // }
+
+        if (ingrese_edad_mujer >= 60 || ingrese_edad_hombre >= 65) {
+            console.log("Te podes jubilar")
+        } else {
+            console.log("no te podes jubilar");
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
